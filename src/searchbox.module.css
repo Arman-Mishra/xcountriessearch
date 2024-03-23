@@ -1,0 +1,22 @@
+.search_box {
+  background-color: rgba(183, 185, 187, 0.2);
+  margin-bottom: 20px;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.search_input {
+  display: block;
+  width: 60%;
+  font-size: 1rem;
+  padding: 5px;
+  border: 1px solid rgba(50, 50, 93, 0.4);
+}
+
+.search_input:focus {
+  outline: none;
+}
